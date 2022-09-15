@@ -1,5 +1,5 @@
-let element = document.getElementById("firstNumber").textContent = Math.ceil(Math.random() * 100);
-let element1 = document.getElementById("secondNumber").textContent = Math.ceil(Math.random() * 100);
+document.getElementById("firstNumber").textContent = Math.ceil(Math.random() * 100);
+document.getElementById("secondNumber").textContent = Math.ceil(Math.random() * 100);
 
 function restart() {
     let element = document.getElementById("firstNumber").textContent = Math.ceil(Math.random() * 100);
